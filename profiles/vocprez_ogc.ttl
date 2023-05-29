@@ -1,0 +1,47 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix profiles: <http://www.opengis.net/def/metamodel/profiles/> .
+@prefix profrole: <http://www.w3.org/ns/dx/prof/role/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix shacl: <http://www.w3.org/ns/shacl#> .
+
+profiles:vocprez_ogc
+   a prof:Profile ;
+  skos:definition """Metadata requirements for VocPrez rendering""" ;
+  dct:description "Validates and entails specific requirements for effective rendering of content in the VocPrez UI" ;
+  rdfs:label "VocPrez UI support" ;
+  prof:hasToken "vocprez"^^xsd:token ;
+  prof:isProfileOf  <https://w3id.org/profile/vocpub> ;
+  prof:hasResource 
+  		[ a prof:ResourceDescriptor ;
+            rdfs:label "Profile description as HTML" ;
+            dct:conformsTo prof: ;
+            dct:format "text/html" ;
+            rdfs:comment "Artefact is self reference using canonical URI and content negotiation" ;
+            prof:hasArtifact profiles:skos_ogc ;
+            prof:hasRole profrole:profile 
+            ],
+         [ a prof:ResourceDescriptor ;
+            rdfs:label "Profile specific entailments for OGC KG" ;
+            dct:conformsTo shacl: ;
+            dct:format "text/turtle" ;
+            dct:description "Entailment script to enforce OGC policy requirements." ;
+            prof:hasArtifact <http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile_entailments.ttl> ;
+            prof:hasRole profrole:entailment 
+            ]          
+            ,
+            [ a prof:ResourceDescriptor ;
+            rdfs:label "SHACL Validator" ;
+            dct:conformsTo shacl: ;
+            dct:format "text/turtle" ;
+            dct:description "Validation shapes for SKOS resources against OGC policy requirements." ;
+            prof:hasArtifact <http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile.shapes.ttl> ;
+            prof:hasRole profrole:validation 
+            ]          
+            ;
+            
+.

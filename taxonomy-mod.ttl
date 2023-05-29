@@ -1,0 +1,607 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.taxonomy.bp/taxonomy/BP/(Business)_Management_aspect-label--0> a skosxl:Label ;
+    skosxl:literalForm "Business management aspect" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Administrative_check> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Processes_and_methods> ;
+    skos:definition "An administrative process comprising confirmation of receipt, registration, and checking of the completeness of the submission." ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Administrative check" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Administrative_check-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Administrative_check-label--0> a skosxl:Label ;
+    skosxl:literalForm "Administrative check" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Administrative_law> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Rules_and_regulations> ;
+    skos:definition "Regulation public law administrative activities, including standards of care." ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Administrative law" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Administrative_law-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Administrative_law-label--0> a skosxl:Label ;
+    skosxl:literalForm "Administrative law" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Assignment> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Processes_and_methods> ;
+    skos:definition "Passing on an operation or content review." ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Assignment" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Assignment-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Assignment-label--0> a skosxl:Label ;
+    skosxl:literalForm "Assignment" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Building_Permit_System-label--0> a skosxl:Label ;
+    skosxl:literalForm "Building Permit System" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Building_design_data> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Data_and_information> ;
+    skos:definition "Data describing current situation or planned new or renovation building design." ;
+    skos:example "2D plans, Building Information Model" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Building design data" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Building_design_data-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Building_design_data-label--0> a skosxl:Label ;
+    skosxl:literalForm "Building design data" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Building_law> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Rules_and_regulations> ;
+    skos:definition "Requirements for buildings related to safety and equity issues such as accessibility, fire safety, or sustainability." ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Building law" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Building_law-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Building_law-label--0> a skosxl:Label ;
+    skosxl:literalForm "Building law" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Communication_system> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Tool_Software_and_Hardware> ;
+    skos:definition "Tools facilitating communication between different stakeholders, both internally to the same institution and between different stakeholders" ;
+    skos:example "Email, Chat, Meetings" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Communication system" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Communication_system-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Communication_system-label--0> a skosxl:Label ;
+    skosxl:literalForm "Communication system" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Completion> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Processes_and_methods> ;
+    skos:definition "The issuance of a decision as to conformity arising from the completion inspection." ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Completion" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Completion-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Completion-label--0> a skosxl:Label ;
+    skosxl:literalForm "Completion" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Content_analyzer_and_Regulations'_Checking_tool> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Tool_Software_and_Hardware> ;
+    skos:definition "Tool allowing to analyse data contents and check compliance to regulations." ;
+    skos:example "BIM-GIS analyser,Rule based checker, ML\\AI tools" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Content analyzer and Regulations' Checking tool" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Content_analyzer_and_Regulations'_Checking_tool-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Content_analyzer_and_Regulations'_Checking_tool-label--0> a skosxl:Label ;
+    skosxl:literalForm "Content analyzer and Regulations' Checking tool" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Content_check> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Processes_and_methods> ;
+    skos:definition "The examination of the submission against substantive planning and building law" ;
+    skos:example "Area check" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Content check" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Content_check-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Content_check-label--0> a skosxl:Label ;
+    skosxl:literalForm "Content check" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Data_Validator> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Tool_Software_and_Hardware> ;
+    skos:definition "Tool allowing to validate the data structure against data requirements (including consistency and clash-detection)" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Data Validator" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Data_Validator-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Data_Validator-label--0> a skosxl:Label ;
+    skosxl:literalForm "Data Validator" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Data_and_information-label--0> a skosxl:Label ;
+    skosxl:literalForm "Data and information" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Data_inspection_support> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Tool_Software_and_Hardware> ;
+    skos:definition "Tool or other support allowing the visualisation and manual inspection of the data" ;
+    skos:example "BIM viewer, PDF reader" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Data inspection support" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Data_inspection_support-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Data_inspection_support-label--0> a skosxl:Label ;
+    skosxl:literalForm "Data inspection support" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Data_storage_and_repository> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Tool_Software_and_Hardware> ;
+    skos:definition "Software/hardware allowing to store and manage data." ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Data storage and repository" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Data_storage_and_repository-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Data_storage_and_repository-label--0> a skosxl:Label ;
+    skosxl:literalForm "Data storage and repository" .
+
+<http://data.taxonomy.bp/taxonomy/BP/EU_directives> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Rules_and_regulations> ;
+    skos:definition "Describes directives given by the EU." ;
+    skos:example "Energy performance of buildings directive" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "EU directive" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/EU_directives-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/EU_directives-label--0> a skosxl:Label ;
+    skosxl:literalForm "EU directive" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Electronic_signature> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Tool_Software_and_Hardware> ;
+    skos:definition "Tools attaching and validating digital signature to data." ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Electronic signature" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Electronic_signature-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Electronic_signature-label--0> a skosxl:Label ;
+    skosxl:literalForm "Electronic signature" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Financial_aspect> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/(Business)_Management_aspect> ;
+    skos:definition "The management, acquisition and utilization of financial resources in order to meet the strategic objectives." ;
+    skos:example "Taxes, Fees, City budget" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Financial aspect" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Financial_aspect-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Financial_aspect-label--0> a skosxl:Label ;
+    skosxl:literalForm "Financial aspect" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Geospatial_and_context_data> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Data_and_information> ;
+    skos:definition "Data representing the existing context and related information having a geospatial dimension" ;
+    skos:example "Geographical Information System, 3D city model" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Geospatial and context data" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Geospatial_and_context_data-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Geospatial_and_context_data-label--0> a skosxl:Label ;
+    skosxl:literalForm "Geospatial and context data" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Government_Level> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Legislative_System> ;
+    skos:definition "The national, federal, regional and municipal organisational level at which regulations are issued and are checked." ;
+    skos:example "Federal, Regional, National" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Government Level" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Government_Level-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Government_Level-label--0> a skosxl:Label ;
+    skosxl:literalForm "Government Level" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Guidelines> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Rules_and_regulations> ;
+    skos:definition "Recommendation or principle that the applicant can refer to, that effects the plot or the building." ;
+    skos:example "Design guidelines" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Guideline" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Guidelines-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Guidelines-label--0> a skosxl:Label ;
+    skosxl:literalForm "Guideline" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Inspection> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Processes_and_methods> ;
+    skos:definition "Checks on the building in construction or use for compliance to the legal regulations and/or the building design as submitted" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Inspection" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Inspection-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Inspection-label--0> a skosxl:Label ;
+    skosxl:literalForm "Inspection" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Interoperability_components_and_solutions> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Tool_Software_and_Hardware> ;
+    skos:definition "Technological component that support collaborative, direct and data-lossless flow of information through a modular and distributed software architecture." ;
+    skos:example "APIs, software" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Interoperability component and solution" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Interoperability_components_and_solutions-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Interoperability_components_and_solutions-label--0> a skosxl:Label ;
+    skosxl:literalForm "Interoperability component and solution" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Issuing_notification_letter> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Processes_and_methods> ;
+    skos:definition "The issuance of the decision as to whether a project is eligible for a building permit or licence to occupy and any possible enforcement action." ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Issuing notification letter" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Issuing_notification_letter-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Issuing_notification_letter-label--0> a skosxl:Label ;
+    skosxl:literalForm "Issuing notification letter" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Legislative_System-label--0> a skosxl:Label ;
+    skosxl:literalForm "Legislative System" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Municipal_law> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Rules_and_regulations> ;
+    skos:definition "Regulations established on a municipal level." ;
+    skos:example "Local regulations, constitutions" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Municipal law" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Municipal_law-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Municipal_law-label--0> a skosxl:Label ;
+    skosxl:literalForm "Municipal law" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Organizational_System-label--0> a skosxl:Label ;
+    skosxl:literalForm "Organizational System" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Organizational_structure_of_units_(internal_and_external)> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/(Business)_Management_aspect> ;
+    skos:definition "The hierarchical structure of the organizations involved in building permitting." ;
+    skos:example "Buisness rules, number of employees" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Organizational structure of units" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Organizational_structure_of_units_(internal_and_external)-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Organizational_structure_of_units_(internal_and_external)-label--0> a skosxl:Label ;
+    skosxl:literalForm "Organizational structure of units" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Participation_of_other_agencies> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Processes_and_methods> ;
+    skos:definition "Participation of other involved agencies , local authorities and any specialist authorities (for ancillary construction law), utility companies, and other experts." ;
+    skos:example "Utility providers, Building control companies," ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Participation of other agencies" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Participation_of_other_agencies-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Participation_of_other_agencies-label--0> a skosxl:Label ;
+    skosxl:literalForm "Participation of other agencies" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Participation_of_the_public> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Processes_and_methods> ;
+    skos:definition "Participation of interested or concerned people." ;
+    skos:example "Neighbors" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Participation of the public" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Participation_of_the_public-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Participation_of_the_public-label--0> a skosxl:Label ;
+    skosxl:literalForm "Participation of the public" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Personal_aspect> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Social_aspect> ;
+    skos:definition "Characteristics, experiences, and perspectives on the permitting process" ;
+    skos:example "Skills, Responsibilities, Behaviour" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Personal aspect" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Personal_aspect-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Personal_aspect-label--0> a skosxl:Label ;
+    skosxl:literalForm "Personal aspect" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Planning_zoning_law> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Rules_and_regulations> ;
+    skos:definition "Location and size requirements for buildings related to land-use and capacity issues such as visual, social and infrastructure impacts." ;
+    skos:example "Development plans" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Planning\\zoning law" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Planning_zoning_law-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Planning_zoning_law-label--0> a skosxl:Label ;
+    skosxl:literalForm "Planning\\zoning law" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Political_aspect-label--0> a skosxl:Label ;
+    skosxl:literalForm "Political aspect" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Post_decision> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Processes_and_methods> ;
+    skos:definition "Actions and recourse taken after a decision including notifications to mapping and utilty authorities or possible appeals and judical reviews" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Post decision" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Post_decision-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Post_decision-label--0> a skosxl:Label ;
+    skosxl:literalForm "Post decision" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Pre_consultation> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Processes_and_methods> ;
+    skos:definition "Giving advice by the building control authority before an application is submitted." ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Pre consultation" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Pre_consultation-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Pre_consultation-label--0> a skosxl:Label ;
+    skosxl:literalForm "Pre consultation" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Procedural_System-label--0> a skosxl:Label ;
+    skosxl:literalForm "Procedural System" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Procedural_data> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Data_and_information> ;
+    skos:definition "Ancillary data used to the building permit process management." ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Procedural data" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Procedural_data-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Procedural_data-label--0> a skosxl:Label ;
+    skosxl:literalForm "Procedural data" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Procedure> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Procedural_System> ;
+    skos:definition "Workflow that administrative operations must follow." ;
+    skos:example "Application forms" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Procedure" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Procedure-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Procedure-label--0> a skosxl:Label ;
+    skosxl:literalForm "Procedure" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Processes_and_methods-label--0> a skosxl:Label ;
+    skosxl:literalForm "Process and method" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Rules_and_regulations-label--0> a skosxl:Label ;
+    skosxl:literalForm "Rule and regulation" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Social_aspect-label--0> a skosxl:Label ;
+    skosxl:literalForm "Social aspect" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Special_related_law> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Rules_and_regulations> ;
+    skos:definition "Ancillary law such as environmental law, or infrastructure." ;
+    skos:example "Environmental, Heritage, Military, Energy saving" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Special related law" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Special_related_law-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Special_related_law-label--0> a skosxl:Label ;
+    skosxl:literalForm "Special related law" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Staff_management> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/(Business)_Management_aspect> ;
+    skos:definition "Staff management is about all aspects regarding the human resources incluidng supervising and guiding the employees for efficiency in performance." ;
+    skos:example "Qualification, Professional roles" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Staff management" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Staff_management-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Staff_management-label--0> a skosxl:Label ;
+    skosxl:literalForm "Staff management" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Stakeholder> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Social_aspect> ;
+    skos:definition "Legal entity, organisation and natural person involved directly or indirectly in the building permit process." ;
+    skos:example "Plan checkers, Government officials," ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Stakeholder" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Stakeholder-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Stakeholder-label--0> a skosxl:Label ;
+    skosxl:literalForm "Stakeholder" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Standard> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Rules_and_regulations> ;
+    skos:definition "Rule, principle, criterion, or measure by which something can be judged or evaluated. In later use also: an accepted norm against which something can be compared." ;
+    skos:example "ISO, IFC" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Standard" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Standard-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Standard-label--0> a skosxl:Label ;
+    skosxl:literalForm "Standard" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Stratigic_objective> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Political_aspect> ;
+    skos:definition "Overall vision, goals and desired outcomes of the authortity." ;
+    skos:example "City renewal" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Stratigic objective" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Stratigic_objective-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Stratigic_objective-label--0> a skosxl:Label ;
+    skosxl:literalForm "Stratigic objective" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Submission> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Processes_and_methods> ;
+    skos:definition "The submission of a building application where different conditions and requirements needs to be considered." ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Submission" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Submission-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Submission-label--0> a skosxl:Label ;
+    skosxl:literalForm "Submission" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Submission_System> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Tool_Software_and_Hardware> ;
+    skos:definition "Tools facilitating the submission of data and information needed to start the process" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Submission System" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Submission_System-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Submission_System-label--0> a skosxl:Label ;
+    skosxl:literalForm "Submission System" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Technological_System-label--0> a skosxl:Label ;
+    skosxl:literalForm "Technological System" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Third_party_data> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Data_and_information> ;
+    skos:definition "Data coming from external sources relevant for checking of regulations." ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Third party data" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Third_party_data-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Third_party_data-label--0> a skosxl:Label ;
+    skosxl:literalForm "Third party data" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Tool_Software_and_Hardware-label--0> a skosxl:Label ;
+    skosxl:literalForm "Tool, Software and Hardware" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Workflow_process_management_platform> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Tool_Software_and_Hardware> ;
+    skos:definition "Tools dedicated to manage the accesses to the system and to the various components involved and to manage the workflow." ;
+    skos:example "Online submission system" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:prefLabel "Workflow\\process management platform" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Workflow_process_management_platform-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Workflow_process_management_platform-label--0> a skosxl:Label ;
+    skosxl:literalForm "Workflow\\process management platform" .
+
+<http://data.taxonomy.bp/taxonomy/BP/Political_aspect> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Organizational_System> ;
+    skos:definition "The organizational structures at different levels holding responsibility, accountability, consultation and notification of building permitting decisions." ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:narrower <http://data.taxonomy.bp/taxonomy/BP/Stratigic_objective> ;
+    skos:prefLabel "Political aspect" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Political_aspect-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Legislative_System> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Building_Permit_System> ;
+    skos:definition "Legal and statutory conditions including regulations and rules at Government and Local levels." ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:narrower <http://data.taxonomy.bp/taxonomy/BP/Government_Level>,
+        <http://data.taxonomy.bp/taxonomy/BP/Rules_and_regulations> ;
+    skos:prefLabel "Legislative System" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Legislative_System-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Procedural_System> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Building_Permit_System> ;
+    skos:definition "The procedural system is a pillar of the building permit system. Here, two different aspects have to be considered: procedures and processes." ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:narrower <http://data.taxonomy.bp/taxonomy/BP/Procedure>,
+        <http://data.taxonomy.bp/taxonomy/BP/Processes_and_methods> ;
+    skos:prefLabel "Procedural System" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Procedural_System-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Social_aspect> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Organizational_System> ;
+    skos:definition "Roles, relationships and competancies of the actors involved in building permitting" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:narrower <http://data.taxonomy.bp/taxonomy/BP/Personal_aspect>,
+        <http://data.taxonomy.bp/taxonomy/BP/Stakeholder> ;
+    skos:prefLabel "Social aspect" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Social_aspect-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Technological_System> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Building_Permit_System> ;
+    skos:definition "The technological system implies all technology to be considered in the context of a building permit. This includes data as well as software applications that can be used as part of the building permit review." ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:narrower <http://data.taxonomy.bp/taxonomy/BP/Data_and_information>,
+        <http://data.taxonomy.bp/taxonomy/BP/Tool_Software_and_Hardware> ;
+    skos:prefLabel "Technological System" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Technological_System-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/(Business)_Management_aspect> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Organizational_System> ;
+    skos:definition "The management structures and resources involved in the building permitting process." ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:narrower <http://data.taxonomy.bp/taxonomy/BP/Financial_aspect>,
+        <http://data.taxonomy.bp/taxonomy/BP/Organizational_structure_of_units_(internal_and_external)>,
+        <http://data.taxonomy.bp/taxonomy/BP/Staff_management> ;
+    skos:prefLabel "Business management aspect" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/(Business)_Management_aspect-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Organizational_System> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Building_Permit_System> ;
+    skos:definition "System for management of behaviours including political aspects and social aspects as well as business management aspects." ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:narrower <http://data.taxonomy.bp/taxonomy/BP/(Business)_Management_aspect>,
+        <http://data.taxonomy.bp/taxonomy/BP/Political_aspect>,
+        <http://data.taxonomy.bp/taxonomy/BP/Social_aspect> ;
+    skos:prefLabel "Organizational System" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Organizational_System-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Building_Permit_System> a skos:Concept ;
+    skos:definition "An administrative system comprised of legislative, organisational, procedural and technological sub-systems aimed at safeguardingn the public interest in the built environment" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:narrower <http://data.taxonomy.bp/taxonomy/BP/Legislative_System>,
+        <http://data.taxonomy.bp/taxonomy/BP/Organizational_System>,
+        <http://data.taxonomy.bp/taxonomy/BP/Procedural_System>,
+        <http://data.taxonomy.bp/taxonomy/BP/Technological_System> ;
+    skos:prefLabel "Building Permit System" ;
+    skos:topConceptOf <http://data.taxonomy.bp/taxonomy/BP> ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Building_Permit_System-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Data_and_information> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Technological_System> ;
+    skos:definition "Specifications and format for stored information about any process, object or person involved in building permitting" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:narrower <http://data.taxonomy.bp/taxonomy/BP/Building_design_data>,
+        <http://data.taxonomy.bp/taxonomy/BP/Geospatial_and_context_data>,
+        <http://data.taxonomy.bp/taxonomy/BP/Procedural_data>,
+        <http://data.taxonomy.bp/taxonomy/BP/Third_party_data> ;
+    skos:prefLabel "Data and information" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Data_and_information-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Rules_and_regulations> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Legislative_System> ;
+    skos:definition "Law and other normative material affecting the built environment." ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:narrower <http://data.taxonomy.bp/taxonomy/BP/Administrative_law>,
+        <http://data.taxonomy.bp/taxonomy/BP/Building_law>,
+        <http://data.taxonomy.bp/taxonomy/BP/EU_directives>,
+        <http://data.taxonomy.bp/taxonomy/BP/Guidelines>,
+        <http://data.taxonomy.bp/taxonomy/BP/Municipal_law>,
+        <http://data.taxonomy.bp/taxonomy/BP/Planning_zoning_law>,
+        <http://data.taxonomy.bp/taxonomy/BP/Special_related_law>,
+        <http://data.taxonomy.bp/taxonomy/BP/Standard> ;
+    skos:prefLabel "Rule and regulation" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Rules_and_regulations-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Tool_Software_and_Hardware> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Technological_System> ;
+    skos:definition "Information technology used in the permitting system including applications for managing the process, comminicating information and checking of the regulations" ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:narrower <http://data.taxonomy.bp/taxonomy/BP/Communication_system>,
+        <http://data.taxonomy.bp/taxonomy/BP/Content_analyzer_and_Regulations'_Checking_tool>,
+        <http://data.taxonomy.bp/taxonomy/BP/Data_Validator>,
+        <http://data.taxonomy.bp/taxonomy/BP/Data_inspection_support>,
+        <http://data.taxonomy.bp/taxonomy/BP/Data_storage_and_repository>,
+        <http://data.taxonomy.bp/taxonomy/BP/Electronic_signature>,
+        <http://data.taxonomy.bp/taxonomy/BP/Interoperability_components_and_solutions>,
+        <http://data.taxonomy.bp/taxonomy/BP/Submission_System>,
+        <http://data.taxonomy.bp/taxonomy/BP/Workflow_process_management_platform> ;
+    skos:prefLabel "Tool, Software and Hardware" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Tool_Software_and_Hardware-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP/Processes_and_methods> a skos:Concept ;
+    skos:broader <http://data.taxonomy.bp/taxonomy/BP/Procedural_System> ;
+    skos:definition "Activities during building permit process, interpretting any laws or guidelines to reach reasonable decisions about building permits." ;
+    skos:inScheme <http://data.taxonomy.bp/taxonomy/BP> ;
+    skos:narrower <http://data.taxonomy.bp/taxonomy/BP/Administrative_check>,
+        <http://data.taxonomy.bp/taxonomy/BP/Assignment>,
+        <http://data.taxonomy.bp/taxonomy/BP/Completion>,
+        <http://data.taxonomy.bp/taxonomy/BP/Content_check>,
+        <http://data.taxonomy.bp/taxonomy/BP/Inspection>,
+        <http://data.taxonomy.bp/taxonomy/BP/Issuing_notification_letter>,
+        <http://data.taxonomy.bp/taxonomy/BP/Participation_of_other_agencies>,
+        <http://data.taxonomy.bp/taxonomy/BP/Participation_of_the_public>,
+        <http://data.taxonomy.bp/taxonomy/BP/Post_decision>,
+        <http://data.taxonomy.bp/taxonomy/BP/Pre_consultation>,
+        <http://data.taxonomy.bp/taxonomy/BP/Submission> ;
+    skos:prefLabel "Process and method" ;
+    skosxl:prefLabel <http://data.taxonomy.bp/taxonomy/BP/Processes_and_methods-label--0> .
+
+<http://data.taxonomy.bp/taxonomy/BP> a skos:ConceptScheme ;
+    dct:description "Taxonomy for building Permit system" ;
+    dct:title "Taxonomy for building Permit system" ;
+    skos:prefLabel "Taxonomy for building Permit system" ;
+    rdfs:label "Taxonomy for building Permit system" ;
+    skos:hasTopConcept <http://data.taxonomy.bp/taxonomy/BP/Building_Permit_System> .
+

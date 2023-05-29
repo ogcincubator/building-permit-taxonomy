@@ -1,0 +1,19 @@
+@prefix dcfg: <http://www.example.org/ogc/domain-cfg#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix profiles: <http://www.opengis.net/def/metamodel/profiles/> .
+
+_:catalog a dcat:Catalog ;
+  dct:title "Building permit taxonomy catalog" ;
+  dcat:dataset _:taxonomy ;
+  dcfg:hasProfileSource "./profiles/*.ttl";
+  dcfg:ignoreProfileArtifactErrors true ;
+.
+
+_:taxonomy a dcfg:DomainConfiguration ;
+  dcfg:localPath "." ;
+  dcfg:glob "taxonomy-mod.ttl" ;
+  dcfg:uriRootFilter "/taxonomy" ;
+  dct:conformsTo profiles:vocprez_ogc, profiles:skos_conceptscheme, profiles:skos_conceptscheme_ogc, profiles:owl2skos ;
+.
